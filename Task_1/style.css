@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+html,body{
+    height: 100%;
+    margin: 0;;
+}
+
+.background{
+    background-color: #daa520;
+
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.iconMain{
+    height: 10vh;
+}
+
+.title{
+    font-family: 'Lilita One', sans-serif;
+}
+
+.centralizar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.cadastro{
+
+   text-decoration: none;
+}
+
+.mainIcon{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+.containerMain{
+    width: 100%;
+    height: 50%;
+    background-color: red;
+    justify-content: cen;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+}
+
+.menuIcon{
+    width: 60%;
+    border: 1px solid black;
+    border-radius: 20%;
+}
+
+.teste{
+    width: 10%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.menu-item{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bordaPreta{
+ border: 1px solid black;
+ border-radius: 45%;
+}
+
+.bordaPretaa{
+    border: 1px solid black;
+    border-radius: 35%;
+    background-color: #ffd467;
+}
+
+.corNavBar{
+    background-color: rgb(236, 34, 34);
+}
+
+.textoDestacado{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}

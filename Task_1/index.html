@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rede Mais</title>
+    <link rel="shortcut icon" type="imagex/png" href="./img/redemaisLogo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body class="background">
+
+  <nav class="navbar corNavBar">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+      <a class="navbar-brand justify-content-center" href="index.html">
+        <img src="img/redemaisLogo.png" alt="Logo" width="90" height="60" class="d-inline-block align-text-top margin-left:">
+      </a>
+      <div class="d-flex w-50 justify-content-between">
+        <a class="textoDestacado">Quem somos</a>
+        <a class="textoDestacado">Lojas</a>
+        <a class="textoDestacado">Ajuda</a>
+        <a class="textoDestacado">Trabalhe conosco</a>
+      </div>
+      <div class="d-flex w-auto justify-content-between mr">
+        <img src="./img/faceLogo.webp" alt="Logo" width="30" height="30" style="margin-right: 5px;" class="d-inline-block align-text-top">
+        <img src="./img/InstaLogo.webp" alt="Logo" width="30" height="30" style="margin-right: 5px;" class="d-inline-block align-text-top">
+        <img src="./img/whatsLogo.webp" alt="Logo" width="30" height="30" style="margin-right: 5px;" class="d-inline-block align-text-top">
+      </div>
+      
+      
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleAutoplaying" class="carousel slide h-auto" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/propaganda1.jpg" class="d-block w-100 h-50" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/propaganda4.jpg" class="d-block w-100 h-50" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/propaganda3.png" class="d-block w-100 h-50" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+        <div class="container pt-5">
+            <div class="centralizar">
+      
+              <img class="img-fluid w-auto h-auto" src="img/redemaisLogo.png">
+            </div>
+            <form class="container p-5 text-center">
+                <div class="mb-3">
+                  <label for="indexEmail" class="form-label">Seu Email</label>
+                  <input type="email" class="form-control w-75 mx-auto" id="indexEmail" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">Nós nunca iremos compartilhar seu email com mais ninguem.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="indexSenha" class="form-label">Senha</label>
+                  <input type="password" class="form-control w-75 mx-auto" id="indexSenha">
+                </div>
+               
+                <button type="button" class="btn btn-warning" onclick="autenticarUsuario()">Entrar</button>
+                <div class="centralizar">
+                    <p>Nao possui conta ? </p>
+                    <a class="btn btn-warning" href="register.html" role="buttom">Cadastre-se</a>
+              </form>
+              
+        </div>
+
+
+        
+        
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rede Mais</title>
+    <link rel="shortcut icon" type="imagex/png" href="./img/redemaisLogo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body class="background">
+
+  <nav class="navbar corNavBar">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/redemaisLogo.png" alt="Logo" width="90" height="60" class="d-inline-block align-text-top">
+      </a>
+      <div class="d-flex w-50 justify-content-between">
+        <a class="textoDestacado">Quem somos</a>
+        <a class="textoDestacado">Lojas</a>
+        <a class="textoDestacado">Ajuda</a>
+        <a class="textoDestacado">Trabalhe conosco</a>
+      </div>
+      <div class="d-flex w-auto justify-content-between">
+        <img src="./img/faceLogo.webp" alt="Logo" width="30" height="30" style="margin-right: 5px;" class="d-inline-block align-text-top">
+        <img src="./img/InstaLogo.webp" alt="Logo" width="30" height="30" style="margin-right: 5px;" class="d-inline-block align-text-top">
+        <img src="./img/whatsLogo.webp" alt="Logo" width="30" height="30" style="margin-right: 5px;" class="d-inline-block align-text-top">
+      </div>
+      
+      
+      </div>
+    </div>
+  </nav>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+        <div class="container p-5 text-center">
+            <div class="centralizar">
+            <img class="img-fluid" src="img/redemaisLogo.png">
+            </div>
+            
+            
+            <form class="container p-5" id="userForm">
+                <div class="mb-3">
+                  <label for="registroNome" class="form-label">Seu Nome</label>
+                    <input type="text" class="form-control w-75 mx-auto" id="registroNome" >
+                  <label for="registroEmail" class="form-label">Seu Email</label>
+                    <input type="email" class="form-control w-75 mx-auto" id="registroEmail" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">Nos nunca iremos compartilhar seu email com mais ninguem.</div>
+                  
+                </div>
+
+                <div class="mb-3 row ">
+
+                  <div class="col">
+                  <label for="registroCpf" class="form-label">CPF</label>
+                  <input type="number" class="form-control w-75 mx-auto" id="registroCpf">
+                  </div>
+                  <div class="col">
+                  <label for="registroIdade" class="form-label">Idade</label>
+                  <input type="number" class="form-control w-75 mx-auto" id="registroIdade">
+                </div>
+
+                </div>
+
+                
+                <div class="mb-3">
+                  <label for="registroSenha" class="form-label">Senha</label>
+                  <input type="password" class="form-control w-75 mx-auto" id="registroSenha">
+                  <label for="registroConfirmarSenha" class="form-label">Confirme sua Senha</label>
+                  <input type="password" class="form-control w-75 mx-auto" id="registroConfirmarSenha">
+                  <div>
+                  
+                </div>
+                </div>
+               
+                <button type="button" class="btn btn-primary" onclick="salvarDados()">Cadastrar</button>
+                <div class="centralizar">
+                    <p>Ja possui uma conta ?</p>
+                    <a class="btn btn-warning" href="index.html" role="buttom">Conecte-se</a>
+
+                    <div id="dadosSalvos"></div>
+              </form>
+        </div>
+</body>
+</html>
+
